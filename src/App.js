@@ -83,7 +83,7 @@ function App() {
           for every 'onClick' event of the button
           it just changes the 'state' of onAdd
           i.e from true to false vice versa. */}
-     <Header jakol = 'Task Tracker' onAdd = {changeState} changeColor = {showAddTask}/>
+     <Header header = 'Task Tracker' onAdd = {changeState} changeColor = {showAddTask}/>
      
      {/* Once the state of showAddTask is changed
          check if the current state is true then
